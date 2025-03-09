@@ -32,13 +32,13 @@ Telemetry Generation Tools – To simulate attack scenarios.
 
 # Steps
 
-1. Setting Up Azure Sentinel
+# 1. Setting Up Azure Sentinel
 
 Signed up for an Azure account (free version available with $200 credit).
 
 Created a Log Analytics Workspace and deployed Microsoft Sentinel.
 
-2. Deploying and Configuring a Virtual Machine
+# 2. Deploying and Configuring a Virtual Machine
 
 Set up a Windows Server Virtual Machine.
 
@@ -46,7 +46,7 @@ Opened port 3389 to attract unauthorized RDP login attempts.
 
 Installed Azure Monitor Agent (AMA) to send security logs to Sentinel.
 
-3. Configuring Log Collection & Threat Detection
+# 3. Configuring Log Collection & Threat Detection
 
 Connected the VM logs to Azure Sentinel.
 
@@ -54,7 +54,7 @@ Enabled security event collection, specifically monitoring failed RDP login atte
 
 Integrated threat intelligence feeds to enhance detection.
 
-4. Monitoring and Analyzing Attacks
+# 4. Monitoring and Analyzing Attacks
 
 Observed brute-force attempts within 24 hours.
 
@@ -62,7 +62,7 @@ Identified attack sources, primarily from Russia and North Korea.
 
 Automated detection and alerting of repeated intrusion attempts.
 
-5. Response & Automation
+# 5. Response & Automation
 
 Implemented alert rules to detect failed login attempts.
 
@@ -89,14 +89,14 @@ Improves defensive strategies – Learn how attackers probe RDP ports and how to
 # Screenshots & References
 
 
-https://imgur.com/a/J7Wm8GA
+<img src="https://imgur.com/a/J7Wm8GA" width="500">
 
-First image shows the data we collected
+First Image: Data Collected
 
-https://imgur.com/a/gvYN1BU
+<img src="https://imgur.com/a/gvYN1BU" width="500">
 
-Second image shows us using KQL to search for important information from the 24h period
+Second Image: KQL Query for Analysis
 
-https://imgur.com/a/FV3eVPE
+<img src="https://imgur.com/a/FV3eVPE" width="500">
 
-This 3rd image provides data on succesfull attacks done to our virtual machine
+Third Image: Successful Attacks
