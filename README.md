@@ -88,15 +88,19 @@ Improves defensive strategies – Learn how attackers probe RDP ports and how to
 
 # Screenshots & References
 
+First Image: KQL Query for Analysis
 
 ![Image 1](https://i.imgur.com/h23ZmcV.jpeg)
+<img src="https://i.imgur.com/h23ZmcV.jpeg" width="500">
 
-First Image: Data Collected
+Second Image: Data Collected
 
 ![Image 2](https://i.imgur.com/VCVBYJ9.png)
-
-Second Image: KQL Query for Analysis
-
-![Image 3](https://i.imgur.com/ObZAeoA.png)
+<img src="https://i.imgur.com/VCVBYJ9.png" width="500">
 
 Third Image: Successful Attacks
+
+![Image 3](https://i.imgur.com/ObZAeoA.png)
+<img src="https://i.imgur.com/ObZAeoA.png" width="500">
+
+
