@@ -1,7 +1,5 @@
 # Azure-Sentinel-SIEM
 
-# Brute Force Attack Detection with Azure Sentinel
-
 # Objective
 
 The project focused on configuring Microsoft Sentinel, a cloud-native Security Information and Event Management (SIEM) system, to detect and respond to brute force attacks. The goal was to simulate real-world attack scenarios within a controlled environment, analyze security logs, and generate alerts for unauthorized access attempts.
